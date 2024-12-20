@@ -1,0 +1,34 @@
+/* Ant Design overrides */
+.ant-btn-primary {
+  @apply bg-primary hover:bg-primary-hover !important;
+}
+
+.ant-steps .ant-steps-item-process .ant-steps-item-icon {
+  @apply bg-primary border-primary !important;
+}
+
+.ant-steps .ant-steps-item-finish .ant-steps-item-icon {
+  @apply border-primary !important;
+}
+
+.ant-steps .ant-steps-item-finish .ant-steps-item-icon .ant-steps-icon {
+  @apply text-primary !important;
+}
+
+.ant-steps .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-tail::after {
+  @apply bg-primary !important;
+}
+
+/* Card overrides */
+.ant-card {
+  @apply rounded-lg shadow-md;
+}
+
+/* Form overrides */
+.ant-form-item-label > label {
+  @apply font-medium;
+}
+
+.ant-input {
+  @apply rounded-md;
+}
